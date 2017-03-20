@@ -1,12 +1,19 @@
 {
   "name": "snizhko-project",
   "version": "0.1.0",
+  "description": "My HomeWork",
+  "main": "index.html",
   "devDependencies": {
+    "express": "^4.15.2",
     "grunt": "~0.4.1",
     "grunt-autoprefixer": "^3.0.4",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-imagemin": "^1.0.0",
     "grunt-contrib-less": "^1.3.0",
     "grunt-contrib-uglify": "^1.0.1"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Snizhko Yuriy"
 }
